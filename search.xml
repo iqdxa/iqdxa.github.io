@@ -85,35 +85,13 @@
     
     
     <entry>
-      <title>自制电子时钟</title>
-      <link href="/iqdxa.github.io/2023/02/13/Self_made_electronic_clock/"/>
-      <url>/iqdxa.github.io/2023/02/13/Self_made_electronic_clock/</url>
+      <title>Hello World</title>
+      <link href="/iqdxa.github.io/2023/02/13/hello-world/"/>
+      <url>/iqdxa.github.io/2023/02/13/hello-world/</url>
       
-        <content type="html"><![CDATA[<p>项目地址：<a href="https://github.com/iqdxa/Self-made-electronic-clock">GitHub主页</a>|<a href="https://gitee.com/tfc123/Self-made-electronic-clock">gitee主页</a></p><h2 id="想法来源"><a href="#想法来源" class="headerlink" title="想法来源"></a>想法来源</h2><p>​有一门课叫电装实习，因为疫情，也没有办法正常上课，上的也不过瘾，于是就产生了自己动手的想法。就在淘宝上买了一些专门用来教学的套件，自己也可以顺便学一学相关的知识。分析了源代码，逻辑分析清楚后，就自己修改了。  </p><h2 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h2><h3 id="原理图"><a href="#原理图" class="headerlink" title="原理图"></a>原理图</h3><img src="source\_photo\Self-made-electronic-clock\2022-12-25 163102.png" />  <h3 id="硬件清单"><a href="#硬件清单" class="headerlink" title="硬件清单"></a>硬件清单</h3><table><thead><tr><th align="center">名称</th><th align="center">型号</th><th align="center">数量</th></tr></thead><tbody><tr><td align="center">数码管</td><td align="center">1寸</td><td align="center">4</td></tr><tr><td align="center">三极管</td><td align="center">S9012</td><td align="center">1</td></tr><tr><td align="center">电阻</td><td align="center">10K</td><td align="center">3</td></tr><tr><td align="center">电容</td><td align="center">22pf</td><td align="center">2</td></tr><tr><td align="center">热敏电阻</td><td align="center"></td><td align="center">1</td></tr><tr><td align="center">光敏电阻</td><td align="center"></td><td align="center">1</td></tr><tr><td align="center">轻触开关</td><td align="center"></td><td align="center">2</td></tr><tr><td align="center">单片机</td><td align="center">stc15f204ea</td><td align="center">1</td></tr><tr><td align="center">电源接口</td><td align="center"></td><td align="center">1</td></tr><tr><td align="center">蜂鸣器</td><td align="center"></td><td align="center">1</td></tr><tr><td align="center">芯片座</td><td align="center">28P</td><td align="center">1</td></tr><tr><td align="center">芯片座</td><td align="center">8P</td><td align="center">1</td></tr><tr><td align="center">时钟芯片</td><td align="center">DS1302</td><td align="center">1</td></tr><tr><td align="center">1220电池</td><td align="center"></td><td align="center">1</td></tr><tr><td align="center">晶振</td><td align="center">32.768Khz</td><td align="center">1</td></tr><tr><td align="center">纽扣电池座</td><td align="center">插件</td><td align="center">1</td></tr><tr><td align="center">3.5电源</td><td align="center"></td><td align="center">1</td></tr></tbody></table><h2 id="开始使用"><a href="#开始使用" class="headerlink" title="开始使用"></a>开始使用</h2><h3 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h3><ul><li><p>时间显示</p><img src="photo/9c2c3f69528723757d21090483cc193.jpg" /></li><li><p>温度显示</p><img src="photo/d6db80706c3779469c39b7d0897090d.jpg" /></li><li><p>光强显示</p><img src="photo/57d959a0d66af039e6c11c65f227374.jpg"/></li></ul><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><ol><li>开始界面：时间、温度、光强度循环显示，按开关2可以使时间初始化</li><li>按开关1：只显示分和秒，按开关2可以使时间初始化</li><li>按开关1：只显示温度</li><li>按开关1：只显示光强度</li><li>按开关1：调整分模式，按开关2：分加一</li><li>按开关1：调整时模式，按开关2：时加一</li></ol><h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><ol><li>起始时间设置的是0分0秒，这样也就相当于一个计时器；如果想要当时钟，就需要一直供电，但是并不需要时钟，故没有上电池。</li><li>本来是带有蜂鸣器的，但是感觉用处不大，就没有使用。</li></ol><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><ol><li>​代码是在源码的基础上修改的，其实很多东西我都不知道为什么要那么写，只是复制、粘贴而已。对于一些简单的，就是自己写的。  </li><li>​做这个之前，好多东西都不懂，自己根据源码去理解，实在不懂的就去百度搜索，确实就走了很多弯路，花了很多时间，但是也学到了很多。</li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 自制 </category>
-          
-          <category> 时钟 </category>
-          
-      </categories>
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
-        <tags>
-            
-            <tag> 单片机 </tag>
-            
-            <tag> C51 </tag>
-            
-            <tag> 自制 </tag>
-            
-            <tag> 时钟 </tag>
-            
-            <tag> STC15W408AS </tag>
-            
-        </tags>
       
     </entry>
     
@@ -141,19 +119,6 @@
             <tag> 快捷键 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/iqdxa.github.io/2023/02/13/hello-world/"/>
-      <url>/iqdxa.github.io/2023/02/13/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
       
     </entry>
     
