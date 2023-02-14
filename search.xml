@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Hexo搭建博客教程</title>
+      <link href="/2023/02/14/How-to-use-hexo-to-deploy-a-blog/"/>
+      <url>/2023/02/14/How-to-use-hexo-to-deploy-a-blog/</url>
+      
+        <content type="html"><![CDATA[<p>博客是搭建好了，但是有些内容忘记了，就得去搜索，所以就在这里记录一下。</p><h1 id="安装本地Hexo程序"><a href="#安装本地Hexo程序" class="headerlink" title="安装本地Hexo程序"></a>安装本地Hexo程序</h1><h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>使用npm一键安装Hexo博客程序：  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli </span><br></pre></td></tr></table></figure><h2 id="Hexo初始化"><a href="#Hexo初始化" class="headerlink" title="Hexo初始化"></a>Hexo初始化</h2><p>初始化并安装所需组件：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo init      # 初始化  </span><br><span class="line">npm install    # 安装组件  </span><br></pre></td></tr></table></figure><h2 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"></a>本地预览</h2><p>启动本地服务器并进行预览：  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g   # 生成页面  </span><br><span class="line">hexo s   # 启动预览  </span><br></pre></td></tr></table></figure><p>访问 <a href="http://localhost:4000，如果出现">http://localhost:4000，如果出现</a> Hexo 默认页面，则本地博客安装成功！<br>文件夹里面会产生很多文件，各有各的作用。Hexo博客文件夹目录结构如下：<br><img src="/../_photo/How-to-use-hexo-to-deploy-a-blog/files_directory_structure.jpg" alt="文件结构目录"></p><h2 id="部署-Hexo-到-GitHub-Pages"><a href="#部署-Hexo-到-GitHub-Pages" class="headerlink" title="部署 Hexo 到 GitHub Pages"></a>部署 Hexo 到 GitHub Pages</h2><p>安装hexo-deployer-git：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><p>修改_config.yml文件末尾的Deployment部分：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:用户名/用户名.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><p>完成后运行hexo d将网站上传部署到GitHub Pages<br>过一会GitHub把网站部署好了以后就可通过https:&#x2F;&#x2F;用户名.github.io看到网站内容了。</p><h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><h2 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h2><p>打开命令行，进入博客所在目录，使用以下命令创建博文：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;My New Post&quot;</span><br></pre></td></tr></table></figure><p>然后source文件夹中会出现一个My New Post.md文件，就可以使用Markdown编辑器在该文件中撰写文章了。</p><p>写完后运行下面代码将文章渲染并部署到GitHub Pages上完成发布。以后每次发布文章都是这两条命令。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g   # 生成页面</span><br><span class="line">hexo d   # 部署发布</span><br></pre></td></tr></table></figure><h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><p>hexo new “name”       # 新建文章<br>hexo new page “name”  # 新建页面<br>hexo g                # 生成页面<br>hexo d                # 部署<br>hexo g -d             # 生成页面并部署<br>hexo s                # 本地预览<br>hexo clean            # 清除缓存和已生成的静态文件<br>hexo help             # 帮助</p><h1 id="参考文章："><a href="#参考文章：" class="headerlink" title="参考文章："></a>参考文章：</h1><ul><li><a href="https://zhuanlan.zhihu.com/p/60578464">使用 Hexo+GitHub 搭建个人免费博客教程（小白向）</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>自制电子时钟</title>
       <link href="/2023/02/13/Self_made_electronic_clock/"/>
       <url>/2023/02/13/Self_made_electronic_clock/</url>
@@ -79,14 +106,14 @@
       
       <categories>
           
+          <category> 收集 </category>
+          
           <category> 诗词 </category>
           
       </categories>
       
       
         <tags>
-            
-            <tag> 收集 </tag>
             
             <tag> 诗词 </tag>
             
