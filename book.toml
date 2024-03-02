@@ -3,4 +3,29 @@ authors = ["TFC"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Note"
+title = "笔记本"
+
+[rust]
+edition = "2021"
+
+[output.html.playground]
+editable = true
+copyable = true
+copy-js = true
+line-numbers = true
+runnable = true
+
+[output.html.print]
+enable = true
+page-break = true # 插入分页
+
+[output.html]
+# github图标
+git-repository-url = ""
+git-repository-icon = "fa-github"
+# 编辑按钮
+edit-url-template = "https://github.com/<owner>/<repo>/edit/<branch>/{path}"
+
+
+[output.markdown]
+
