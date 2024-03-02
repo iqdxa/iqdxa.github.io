@@ -4,6 +4,6 @@
 
 ---
 
-- [学习]
-  - [Python]
+- [学习](./Learning/learning.md)
+  - [Python](./Learning/Python/python.md)
     - [Keyword](./Learning/Python/Keyword.md)
