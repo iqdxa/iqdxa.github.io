@@ -26,9 +26,5 @@ git-repository-icon = "fa-github"
 # 编辑按钮
 edit-url-template = "https://github.com/iqdxa/iqdxa.github.io/edit/main/{path}"
 
-[preprocessor.toc]
-command = "mdbook-toc"
-renderer = ["html"]
 
-[output.markdown]
 
